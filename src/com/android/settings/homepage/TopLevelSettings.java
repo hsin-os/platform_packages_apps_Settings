@@ -66,7 +66,7 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
     private static final String TAG = "TopLevelSettings";
     private static final String SAVED_HIGHLIGHT_MIXIN = "highlight_mixin";
     private static final String PREF_KEY_SUPPORT = "top_level_support";
-    private static final int MIKU_TIPS_COUNT = 25;
+    private static final int MIKU_TIPS_COUNT = 23;
     private boolean mIsEmbeddingActivityEnabled;
     private TopLevelHighlightMixin mHighlightMixin;
     private int mPaddingHorizontal;
