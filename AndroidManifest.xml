@@ -5348,12 +5348,12 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.miku.exsettings.fragments.SmartPixels" />
+                android:value="com.hsin.exsettings.fragments.SmartPixels" />
         </activity>
 
-        <!-- MikuSettings -->
-        <activity android:name=".Settings$MikuSettingsActivity"
-            android:label="@string/miku_settings_title"
+        <!-- HsinSettings -->
+        <activity android:name=".Settings$HsinSettingsActivity"
+            android:label="@string/hsin_settings_title"
             android:parentActivityName="com.android.settings"
             android:exported="true">
             <intent-filter android:priority="69">
@@ -5361,7 +5361,7 @@
                 <category android:name="com.android.settings.SHORTCUT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.miku.exsettings.MikuSettings" />
+                android:value="com.hsin.exsettings.HsinSettings" />
         </activity>
 
         <!-- [b/197780098] Disable eager initialization of Jetpack libraries. -->

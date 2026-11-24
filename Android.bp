@@ -55,7 +55,7 @@ android_library {
     srcs: [
         "src/**/*.java",
         "src/**/*.kt",
-        "MikuSettings/src/**/*.java",
+        "HsinSettings/src/**/*.java",
     ],
     exclude_srcs: [
         "src/com/android/settings/biometrics/fingerprint2/lib/**/*.kt",
@@ -65,9 +65,9 @@ android_library {
         "res",
         "res-export", // for external usage
         "res-product",
-        "MikuSettings/res",
+        "HsinSettings/res",
     ],
-    aaptflags: ["--extra-packages com.miku.exsettings"],
+    aaptflags: ["--extra-packages com.hsin.exsettings"],
     static_libs: [
         // External dependencies
         "androidx.navigation_navigation-fragment-ktx",
