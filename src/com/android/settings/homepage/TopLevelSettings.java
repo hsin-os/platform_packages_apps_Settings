@@ -29,7 +29,6 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import androidx.annotation.VisibleForTesting;
 import androidx.fragment.app.Fragment;
@@ -43,7 +42,6 @@ import androidx.window.embedding.ActivityEmbeddingController;
 
 import com.android.settings.R;
 import com.android.settings.Utils;
-import com.android.settings.utils.RandomResUtils;
 import com.android.settings.activityembedding.ActivityEmbeddingRulesController;
 import com.android.settings.activityembedding.ActivityEmbeddingUtils;
 import com.android.settings.core.RoundCornerPreferenceAdapter;
@@ -66,7 +64,6 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
     private static final String TAG = "TopLevelSettings";
     private static final String SAVED_HIGHLIGHT_MIXIN = "highlight_mixin";
     private static final String PREF_KEY_SUPPORT = "top_level_support";
-    private static final int MIKU_TIPS_COUNT = 23;
     private boolean mIsEmbeddingActivityEnabled;
     private TopLevelHighlightMixin mHighlightMixin;
     private int mPaddingHorizontal;
@@ -178,15 +175,6 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
             mActivityEmbeddingController = ActivityEmbeddingController.getInstance(getActivity());
         }
         return mActivityEmbeddingController.isActivityEmbedded(getActivity());
-    }
-
-    @Override
-    public void onResume() {
-        super.onResume();
-        final TextView tvMikuTip = getActivity().findViewById(R.id.tv_miku_tip);
-        if (tvMikuTip != null) {
-            tvMikuTip.setText(RandomResUtils.getRandomString(getResources(), R.array.random_tips, MIKU_TIPS_COUNT));
-        }
     }
 
     @Override

@@ -494,7 +494,7 @@ public class Settings extends SettingsActivity {
     public static class StorageDashboardActivity extends SettingsActivity {}
     public static class AccountDashboardActivity extends SettingsActivity {}
     public static class SystemDashboardActivity extends SettingsActivity {}
-    public static class MikuSettingsActivity extends SettingsActivity {}
+    public static class HsinSettingsActivity extends SettingsActivity {}
 
     /**
      * Activity for MediaControlsSettings

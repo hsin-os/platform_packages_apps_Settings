@@ -91,7 +91,7 @@
 	    android:key="android.theme.customization.fonts"
 	    android:title="@string/theme_customization_font_title"
 	    android:summary="@string/theme_customization_font_summary"
-	    android:fragment="com.miku.exsettings.fragments.FontsPicker"/>
+	    android:fragment="com.hsin.exsettings.fragments.FontsPicker"/>
 
         <Preference
             android:fragment="com.android.settings.accessibility.TextReadingPreferenceFragment"

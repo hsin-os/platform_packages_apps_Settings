@@ -4,14 +4,6 @@
     android:layout_height="30dp"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <ImageView
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:id="@+android:id/icon"
-        android:src="@drawable/icon_miku"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="30dp"
@@ -19,7 +11,7 @@
         android:id="@+android:id/title"
         android:gravity="center"
         android:textSize="16sp"
-        android:textColor="#39C5BB"
+        android:textColor="?android:attr/colorAccent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toEndOf="@android:id/icon" />
 

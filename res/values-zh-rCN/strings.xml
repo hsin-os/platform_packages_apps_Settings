@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--  Copyright (C) 2007 The Android Open Source Project
-      Copyright (C) 2021 Miku UI
+      Copyright (C) 2021 Hsin OS
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,15 +16,15 @@
  -->
 
 <!--
-	Here is Miku UI simplified Chinese translation dictionary.
+	Here is Hsin OS simplified Chinese translation dictionary.
 
 	We follow the following principles:
 
 	• Reduce the stiffness caused by the use of honorifics.
-		  We aim to bring users a better Android experience. Miku UI brings realism to users in mechanized devices.
+		  We aim to bring users a better Android experience. Hsin OS brings realism to users in mechanized devices.
 
 	• Avoid causing users' disgust under various circumstances.
-		  We're sure that you will like the lovely Miku UI:)
+		  We're sure that you will like the lovely Hsin OS:)
 
 	In addition, we have corrected a number of translations that are unclear or may not be applicable to the current equipment.
 
@@ -34,15 +34,15 @@
   
   --><!--
   
-	这里是 Miku UI 简体中文翻译字典。
+	这里是 Hsin OS 简体中文翻译字典。
 
 	我们遵循以下原则：
 
 	• 减少使用敬语所带来的生硬感。
-		  我们旨在为使用者带来更好的 Android 体验，Miku UI 于机械化的设备中为使用者带来真实感。
+		  我们旨在为使用者带来更好的 Android 体验，Hsin OS 于机械化的设备中为使用者带来真实感。
 
 	• 避免在各种情况下引起使用者的反感。
-		  谁会拒绝可爱的 Miku UI 呢~
+		  谁会拒绝可爱的 Hsin OS 呢~
 
 	另外，我们纠正了若干表意不清，抑或是可能会不适用于当前设备的翻译。
 
@@ -1427,7 +1427,7 @@
     <string name="pin_failed" msgid="3726505565797352255">"SIM 卡 PIN 码操作失败！"</string>
     <string name="system_update_settings_list_item_title" msgid="3398346836439366350">"系统更新"</string>
     <string name="system_update_settings_list_item_summary" msgid="6703752298349642101"></string>
-    <string name="firmware_version" msgid="1606901586501447275">"Miku UI 版本"</string>
+    <string name="firmware_version" msgid="1606901586501447275">"Hsin OS 版本"</string>
     <string name="security_patch" msgid="4071756145347865382">"Android 安全更新"</string>
     <string name="model_info" msgid="8997566254717810904">"型号"</string>
     <string name="hardware_revision" msgid="3454709180861965025">"硬件版本"</string>

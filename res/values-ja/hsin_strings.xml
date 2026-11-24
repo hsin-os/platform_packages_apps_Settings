@@ -25,23 +25,28 @@
   <string name="custom_seekbar_default_value_is_set">デフォルトの値が設定されています</string>
   <!-- Auto Reboot -->
   <string name="auto_reboot_title">自動で再起動</string>
-  <string name="auto_reboot_summary">選択した時間内にロックの解除がされなかった場合は自動的に Miku UI を再起動します。</string>
+  <string name="auto_reboot_summary">選択した時間内にロックの解除がされなかった場合は自動的に Hsin OS を再起動します。</string>
+
   <!-- Three-fingers-swipe to screenshot -->
   <string name="three_finger_gesture">スワイプでスクリーンショット</string>
-  <string name="three_finger_gesture_summary">3 本指でスワイプをして～～完了っ！</string>
+  <string name="three_finger_gesture_summary">3本指で下にスワイプして、この瞬間をキャプチャ～ (✿◠‿◠)</string>
+
   <!-- Maintainer name -->
-  <string name="maintainer_name">❤マスター❤</string>
-  <string name="miku_maintainer_uri" translatable="false">http://127.0.0.1</string>
-  <!-- Miku build type -->
-  <string name="miku_type">❤ビルドタイプ❤</string>
-  <!-- Miku version -->
-  <string name="miku_version">Miku UI バージョン</string>
-  <string name="miku_version_uri" translatable="false">https://github.com/Miku-UI</string>
+  <string name="maintainer_name">✦ メンテナー ✦</string>
+
+  <!-- Hsin build type -->
+  <string name="hsin_type">✦ ビルドタイプ ✦</string>
+
+  <!-- Hsin version -->
+  <string name="hsin_version">Hsin OS バージョン</string>
+  <string name="hsin_version_uri" translatable="false">https://github.com/hsin-os</string>
+
   <!-- SELinux Status -->
   <string name="selinux_status">SELinux ステータス</string>
-  <string name="selinux_status_disabled">無効？ それは変ですよ...</string>
-  <string name="selinux_status_permissive">Permissive～気をつけてね～</string>
-  <string name="selinux_status_enforcing">Enforcing、安全ですよ。</string>
+  <string name="selinux_status_disabled">無効？ それは珍しいですね... (・_・;)</string>
+  <string name="selinux_status_permissive">Permissive～気をつけてくださいね～</string>
+  <string name="selinux_status_enforcing">Enforcing。聖域がしっかり守っています。</string>
+
   <!-- Status Bar Lyric -->
   <string name="status_bar_show_lyric_title">ステータスバーの歌詞 (アプリの対応が必要です)</string>
   <string name="status_bar_show_lyric_summary">ステータスバーに歌詞を表示します。</string>

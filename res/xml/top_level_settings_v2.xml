@@ -73,7 +73,6 @@
         android:order="-141"
         android:layout="@layout/settingslib_expressive_preference"
         android:title="@string/network_category_title"
-        android:icon="@drawable/icon_miku" />
 
     <PreferenceCategory
         android:order="-140"
@@ -112,7 +111,6 @@
         android:order="-131"
         android:layout="@layout/settingslib_expressive_preference"
         android:title="@string/apps_category_title"
-        android:icon="@drawable/icon_miku" />
 
     <PreferenceCategory
         android:order="-130"
@@ -132,7 +130,6 @@
         android:order="-121"
         android:layout="@layout/settingslib_expressive_preference"
         android:title="@string/display_and_sound_category_title"
-        android:icon="@drawable/icon_miku" />
 
     <PreferenceCategory
         android:order="-120"
@@ -177,7 +174,6 @@
         android:order="-111"
         android:layout="@layout/settingslib_expressive_preference"
         android:title="@string/security_category_title"
-        android:icon="@drawable/icon_miku" />
 
     <PreferenceCategory
         android:order="-110"
@@ -242,7 +238,6 @@
         android:order="-101"
         android:layout="@layout/settingslib_expressive_preference"
         android:title="@string/others_category_title"
-        android:icon="@drawable/icon_miku" />
 
     <PreferenceCategory
         android:order="-100"
@@ -266,12 +261,11 @@
             settings:controller="com.android.settings.accessibility.TopLevelAccessibilityPreferenceController"/>
 
         <com.android.settings.widget.HomepagePreference
-            android:key="top_level_miku"
-            android:title="@string/miku_settings_title"
-            android:summary="@string/miku_settings_summary"
+            android:title="@string/hsin_settings_title"
+            android:summary="@string/hsin_settings_summary"
             android:icon="@drawable/ic_settings_about_device_filled"
-            settings:highlightableMenuKey="@string/menu_key_miku"
-            android:fragment="com.miku.exsettings.MikuSettings"/>
+            settings:highlightableMenuKey="@string/menu_key_hsin"
+            android:fragment="com.hsin.exsettings.HsinSettings"/>
 
         <com.android.settings.widget.HomepagePreference
             android:icon="@drawable/ic_help_filled"

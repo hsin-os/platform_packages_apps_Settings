@@ -29,24 +29,27 @@
 
     <!-- Auto reboot -->
     <string name="auto_reboot_title">自动重启</string>
-    <string name="auto_reboot_summary">如果太久没有唤醒Miku的话，她也是会犯困的哦！设置最长的待机时间，超过了就会重启来清理内存捏~</string>
+    <string name="auto_reboot_summary">如果手机在选定的小时数内未解锁，将自动重启你的 Hsin OS。</string>
 
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">三指截屏</string>
-    <string name="three_finger_gesture_summary">滑动你的三根手指~来截图叭！</string>
+    <string name="three_finger_gesture_summary">三指下滑，定格这一刻的美好～ (✿◠‿◠)</string>
 
-    <!-- Miku build type -->
-    <string name="miku_type">❤构建组织❤</string>
+    <!-- Maintainer name -->
+    <string name="maintainer_name">✦ 维护者  ✦</string>
 
-    <!-- Miku version -->
-    <string name="miku_version">Miku UI Ver.</string>
-    <string name="miku_version_uri" translatable="false">https://github.com/Miku-UI</string>
+    <!-- Hsin build type -->
+    <string name="hsin_type">✦ 构建类型 ✦</string>
+
+    <!-- Hsin version -->
+    <string name="hsin_version">Hsin OS Ver.</string>
+    <string name="hsin_version_uri" translatable="false">https://github.com/hsin-os</string>
 
     <!-- SELinux Status -->
     <string name="selinux_status">SELinux 状态</string>
-    <string name="selinux_status_disabled">被...禁用了？这可不太对劲</string>
-    <string name="selinux_status_permissive">宽容~请谨慎行事~</string>
-    <string name="selinux_status_enforcing">强制执行！</string>
+    <string name="selinux_status_disabled">被禁用了？这可不太寻常... (・_・;)</string>
+    <string name="selinux_status_permissive">Permissive～请谨慎行事哦～</string>
+    <string name="selinux_status_enforcing">Enforcing。圣域正在守护着你。</string>
 
     <!-- Status Bar Lyric -->
     <string name="status_bar_show_lyric_title">状态栏歌词（需要应用支持哦）</string>

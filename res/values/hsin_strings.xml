@@ -28,29 +28,29 @@
 
     <!-- Auto Reboot -->
     <string name="auto_reboot_title">Auto reboot</string>
-    <string name="auto_reboot_summary">Automatically reboot your Miku, if the phone hasn\'t been unlocked within the selected number of hours.</string>
+    <string name="auto_reboot_summary">Automatically reboot your Hsin, if the phone hasn\'t been unlocked within the selected number of hours.</string>
 
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe down your three fingers, and～～it is done！</string>
-
+    <string name="three_finger_gesture_summary">Swipe down with three fingers to capture the moment~ (✿◠‿◠)</string>
+    
     <!-- Maintainer name -->
-    <string name="maintainer_name">❤Master❤</string>
-    <string name="miku_maintainer_uri" translatable="false">http://127.0.0.1</string>
+    <string name="maintainer_name">✦ Maintainer ✦</string>
+    <string name="hsin_maintainer_uri" translatable="false">http://127.0.0.1</string>
 
-    <!-- Miku build type -->
-    <string name="miku_type">❤Build type❤</string>
-
-    <!-- Miku version -->
-    <string name="miku_version">Miku UI Ver.</string>
-    <string name="miku_version_uri" translatable="false">https://github.com/Miku-UI</string>
-
+    <!-- Hsin build type -->
+    <string name="hsin_type">✦ Build type  ✦</string>
+    
+    <!-- Hsin version -->
+    <string name="hsin_version">Hsin OS Ver.</string>
+    <string name="hsin_version_uri" translatable="false">https://github.com/hsin-os</string>
+    
     <!-- SELinux Status -->
     <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled? That is weird...</string>
-    <string name="selinux_status_permissive">Permissive~Be careful~</string>
-    <string name="selinux_status_enforcing">Enforcing.You are safe now.</string>
-
+    <string name="selinux_status_disabled">Disabled? That is unusual... (・_・;)</string>
+    <string name="selinux_status_permissive">Permissive~ Please tread carefully~</string>
+    <string name="selinux_status_enforcing">Enforcing. The Sanctum stands guard.</string>
+    
      <!-- Status Bar Lyric -->
     <string name="status_bar_show_lyric_title">Status bar lyric (need App support)</string>
     <string name="status_bar_show_lyric_summary">Show lyric in status bar.</string>

@@ -25,15 +25,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="260dp">
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="240dp"
-            android:src="@drawable/mikuui_banner"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" />
-
+        android:layout_height="wrap_content">
+        
         <ImageView
             android:id="@+id/account_avatar"
             android:layout_width="@dimen/avatar_length"
@@ -58,12 +51,6 @@
         android:id="@+id/suggestion_content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-
-    <include
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        layout="@layout/layout_miku_tips"
-        android:id="@+id/ll_miku_tips"/>
 
     <include layout="@layout/search_bar"/>
 

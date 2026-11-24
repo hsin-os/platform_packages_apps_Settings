@@ -211,8 +211,8 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSettings2;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
-import com.miku.exsettings.MikuSettings;
-import com.miku.exsettings.fragments.SmartPixels;
+import com.hsin.exsettings.HsinSettings;
+import com.hsin.exsettings.fragments.SmartPixels;
 
 public class SettingsGateway {
 
@@ -404,7 +404,7 @@ public class SettingsGateway {
             FirstDayOfWeekItemFragment.class.getName(),
             BatteryInfoFragment.class.getName(),
             UserAspectRatioDetails.class.getName(),
-            MikuSettings.class.getName(),
+            HsinSettings.class.getName(),
             SmartPixels.class.getName(),
             ScreenTimeoutSettings.class.getName(),
             ResetNetwork.class.getName(),
@@ -461,7 +461,7 @@ public class SettingsGateway {
             UserBackupSettingsActivity.class.getName(),
             Settings.MemtagPageActivity.class.getName(),
             Settings.NavigationModeSettingsActivity.class.getName(),
-            Settings.MikuSettingsActivity.class.getName(),
+            Settings.HsinSettingsActivity.class.getName(),
             Settings.SmartPixelsActivity.class.getName(),
     };
 }

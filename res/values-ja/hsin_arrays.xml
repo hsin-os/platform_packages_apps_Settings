@@ -14,16 +14,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Auto reboot settings -->
   <string-array name="auto_reboot_entries">
-    <item>いやだ！</item>
-    <item>10 分 (休憩)</item>
-    <item>30 分 (お昼寝)</item>
+    <item>いいえ！</item>
+    <item>10 分 </item>
+    <item>30 分 </item>
     <item>1 時間</item>
     <item>2 時間</item>
     <item>4 時間</item>
-    <item>8 時間 (そのまま寝た)</item>
+    <item>8 時間 </item>
     <item>12 時間</item>
-    <item>24 時間 (丸一日寝た)</item>
-    <item>36 時間 (ミク...大丈夫？)</item>
+    <item>24 時間 </item>
+    <item>36 時間 </item>
     <item>48 時間 (2 日経った！)</item>
     <item>72 時間 (お願い！起きて！QAQ)</item>
   </string-array>

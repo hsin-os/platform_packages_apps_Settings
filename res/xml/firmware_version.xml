@@ -21,17 +21,6 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
-    <PreferenceScreen
-        android:key="mikuui_logo1"
-        android:layout="@layout/mikuui_logo"/>
-
-    <com.android.settingslib.widget.LayoutPreference
-        android:key="mikuui_logo"
-        android:order="0"
-        android:layout="@layout/mikuui_logo"
-        android:selectable="false"
-        settings:isPreferenceVisible="true"/>
-
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
@@ -41,18 +30,18 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
-    <!-- Miku version -->
+    <!-- Hsin version -->
     <Preference
-        android:key="miku_version"
-        android:title="@string/miku_version"
+        android:key="hsin_version"
+        android:title="@string/hsin_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.MikuVersionPreferenceController"/>
 
     <!-- Build type -->
     <Preference
-        android:key="miku_type"
-        android:title="@string/miku_type"
+        android:key="hsin_type"
+        android:title="@string/hsin_type"
         android:summary="@string/summary_placeholder"
         android:selectable="false"
         settings:enableCopying="true"
