@@ -20,7 +20,7 @@ import static android.provider.Settings.Secure.CPU_PERFORMANCE_MODE;
 import android.app.settings.SettingsEnums;
 import android.content.Context;
 import android.provider.Settings;
-import com.android.internal.util.miku.FileUtils;
+import com.android.internal.util.hsin.FileUtils;
 
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
