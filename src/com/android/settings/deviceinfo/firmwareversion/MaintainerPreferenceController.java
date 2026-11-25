@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2019 The Android Open Source Project
+ * Copyright (C) 2026 Hsin OS
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -31,8 +32,8 @@ import com.android.settings.core.BasePreferenceController;
 
 public class MaintainerPreferenceController extends BasePreferenceController {
 
-    private static final String TAG = "MikuMaintainer";
-    private static final String MAINTAINER_NAME_PROPERTY = "ro.miku.maintainer";
+    private static final String TAG = "HsinMaintainer";
+    private static final String MAINTAINER_NAME_PROPERTY = "ro.hsin.maintainer";
 
     private final PackageManager mPackageManager;
 

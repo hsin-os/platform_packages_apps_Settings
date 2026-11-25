@@ -36,7 +36,7 @@
     
     <!-- Maintainer name -->
     <string name="maintainer_name">✦ Maintainer ✦</string>
-    <string name="hsin_maintainer_uri" translatable="false">http://127.0.0.1</string>
+    <string name="hsin_maintainer_uri" translatable="false">https://github.com/hsin-os</string>
 
     <!-- Hsin build type -->
     <string name="hsin_type">✦ Build type  ✦</string>

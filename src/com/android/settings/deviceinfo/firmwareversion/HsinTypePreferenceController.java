@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2019 The Android Open Source Project
+ * Copyright (C) 2026 Hsin OS
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -29,14 +30,14 @@ import androidx.preference.Preference;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class MikuTypePreferenceController extends BasePreferenceController {
+public class HsinTypePreferenceController extends BasePreferenceController {
 
-    private static final String TAG = "MikuType";
-    private static final String MIKU_TYPE_PROPERTY = "ro.miku.buildtype";
+    private static final String TAG = "HsinType";
+    private static final String HSIN_TYPE_PROPERTY = "ro.hsin.buildtype";
 
     private final PackageManager mPackageManager;
 
-    public MikuTypePreferenceController(Context context, String preferenceKey) {
+    public HsinTypePreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
         mPackageManager = mContext.getPackageManager();
     }
@@ -48,7 +49,7 @@ public class MikuTypePreferenceController extends BasePreferenceController {
 
     @Override
     public CharSequence getSummary() {
-        return SystemProperties.get(MIKU_TYPE_PROPERTY,
+        return SystemProperties.get(HSIN_TYPE_PROPERTY,
                 mContext.getString(R.string.device_info_default));
     }
 

@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2019 The Android Open Source Project
+ * Copyright (C) 2026 Hsin OS
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -29,14 +30,14 @@ import androidx.preference.Preference;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class MikuVersionPreferenceController extends BasePreferenceController {
+public class HsinVersionPreferenceController extends BasePreferenceController {
 
-    private static final String TAG = "MikuFirmwareVersion";
-    private static final String MIKU_VERSION_PROPERTY = "ro.miku.version";
+    private static final String TAG = "HsinFirmwareVersion";
+    private static final String HSIN_VERSION_PROPERTY = "ro.hsin.version";
 
     private final PackageManager mPackageManager;
 
-    public MikuVersionPreferenceController(Context context, String preferenceKey) {
+    public HsinVersionPreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
         mPackageManager = mContext.getPackageManager();
     }
@@ -48,7 +49,7 @@ public class MikuVersionPreferenceController extends BasePreferenceController {
 
     @Override
     public CharSequence getSummary() {
-        return SystemProperties.get(MIKU_VERSION_PROPERTY,
+        return SystemProperties.get(HSIN_VERSION_PROPERTY,
                 mContext.getString(R.string.device_info_default));
     }
 
@@ -60,7 +61,7 @@ public class MikuVersionPreferenceController extends BasePreferenceController {
 
         final Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(mContext.getString(R.string.miku_version_uri)));
+        intent.setData(Uri.parse(mContext.getString(R.string.hsin_version_uri)));
         if (mPackageManager.queryIntentActivities(intent, 0).isEmpty()) {
             // Don't send out the intent to stop crash
             Log.w(TAG, "queryIntentActivities() returns empty");
